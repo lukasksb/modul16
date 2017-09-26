@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Schlemmertagebuch</title>
+    <link>http://raffael-kobler.ch/schlemmertagebuch/tags/</link>
+    <description>Recent content in Tags on Schlemmertagebuch</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de-ch</language>
+    <lastBuildDate>Wed, 06 Sep 2017 12:47:12 +0200</lastBuildDate>
+    
+	<atom:link href="http://raffael-kobler.ch/schlemmertagebuch/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Chili</title>
+      <link>http://raffael-kobler.ch/schlemmertagebuch/tags/chili/</link>
+      <pubDate>Wed, 06 Sep 2017 12:47:12 +0200</pubDate>
+      
+      <guid>http://raffael-kobler.ch/schlemmertagebuch/tags/chili/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fleisch</title>
+      <link>http://raffael-kobler.ch/schlemmertagebuch/tags/fleisch/</link>
+      <pubDate>Wed, 06 Sep 2017 14:25:53 +0200</pubDate>
+      
+      <guid>http://raffael-kobler.ch/schlemmertagebuch/tags/fleisch/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Murica</title>
+      <link>http://raffael-kobler.ch/schlemmertagebuch/tags/murica/</link>
+      <pubDate>Wed, 06 Sep 2017 12:47:12 +0200</pubDate>
+      
+      <guid>http://raffael-kobler.ch/schlemmertagebuch/tags/murica/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Süssspeise</title>
+      <link>http://raffael-kobler.ch/schlemmertagebuch/tags/s%C3%BCssspeise/</link>
+      <pubDate>Wed, 13 Sep 2017 13:18:29 +0200</pubDate>
+      
+      <guid>http://raffael-kobler.ch/schlemmertagebuch/tags/s%C3%BCssspeise/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Zucker</title>
+      <link>http://raffael-kobler.ch/schlemmertagebuch/tags/zucker/</link>
+      <pubDate>Wed, 13 Sep 2017 13:18:29 +0200</pubDate>
+      
+      <guid>http://raffael-kobler.ch/schlemmertagebuch/tags/zucker/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

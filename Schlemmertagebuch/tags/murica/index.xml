@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Murica on Schlemmertagebuch</title>
+    <link>http://raffael-kobler.ch/schlemmertagebuch/tags/murica/</link>
+    <description>Recent content in Murica on Schlemmertagebuch</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de-ch</language>
+    <lastBuildDate>Wed, 06 Sep 2017 12:47:12 +0200</lastBuildDate>
+    
+	<atom:link href="http://raffael-kobler.ch/schlemmertagebuch/tags/murica/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Chili Con Carne</title>
+      <link>http://raffael-kobler.ch/schlemmertagebuch/rezepte/chili-con-carne/</link>
+      <pubDate>Wed, 06 Sep 2017 12:47:12 +0200</pubDate>
+      
+      <guid>http://raffael-kobler.ch/schlemmertagebuch/rezepte/chili-con-carne/</guid>
+      <description>Bowl of Chili con Carne von Carstor, Wikipedia, Lizenz: CC BY-SA 2.5
+Zutaten 4 Portionen
+ 500 g Hackfleisch vom Rind 1 rote Chilischote 2 grosse Zwiebeln 1 Knoblauchzehe 1 TL gemahlener Kreuzkümmel 2 TL Chilipulver 2 grosse Dosen gehackte Tomaten 2 Dosen Kidneybohnen Salz Pfeffer  Zubereitung  Zwiebeln und Knoblauch klein schneiden und in einem grossen Topf mit etwas Öl 5 Minuten andünsten. Kreuzkümmel, Chilipulver und gehacke Chilischoten hinzugeben und kurz dünsten.</description>
+    </item>
+    
+  </channel>
+</rss>

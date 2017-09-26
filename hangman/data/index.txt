@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
+    <meta charset="UTF-8">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta http-equiv="content-language" content="de" />
+    <link rel="icon" type="image/png" href="img/favicon.png" />
+    <link rel="stylesheet" href="css/default.css" />
+    <script type="text/javascript" src="js/jquery-2.2.2.min.js"></script>
+    <script type="text/javascript" src="js/hangman.js"></script>
+    <title>Galgemännli</title>
+</head>
+<body>
+    <div id="message-container">
+        <div id="message"><img src="img/ajax-loader.gif"></div>
+    </div>
+    <div id="main">
+        <h1>Galgemännli</h1>
+        <div id="level">
+            <button class="level" id="1">1</button>
+            <button class="level" id="2">2</button>
+            <button class="level" id="3">3</button>
+            <button class="level" id="4">4</button>
+            <button class="level" id="5">5</button>
+        </div>
+        <div id="playground">
+            <table>
+                <tbody>
+                    <tr><td> </td><td>&#x2553;</td><td>&#x2500;</td><td>&#x2500;</td><td>&#x2500;</td><td>&#x2500;</td><td>&#x2500;</td><td>&#x252C;</td><td>&#x2500;</td><td>&#x2500;</td><td> </td></tr>
+                    <tr><td> </td><td>&#x2551;</td><td> </td><td> </td><td> </td><td> </td><td> </td><td class="invisible" id="mistake-1">&#x2502;</td><td> </td><td> </td><td> </td></tr>
+                    <tr><td> </td><td>&#x2551;</td><td> </td><td> </td><td> </td><td> </td><td> </td><td class="invisible" id="mistake-2">&#x25CB;</td><td> </td><td> </td><td> </td></tr>
+                    <tr><td> </td><td>&#x2551;</td><td> </td><td> </td><td> </td><td> </td><td class="invisible" id="mistake-4">/</td><td class="invisible" id="mistake-3">&#x2502;</td><td class="invisible" id="mistake-5">\</td><td> </td><td> </td></tr>
+                    <tr><td> </td><td>&#x2551;</td><td> </td><td> </td><td> </td><td> </td><td class="invisible" id="mistake-6">/</td><td> </td><td class="invisible" id="mistake-7">\</td><td> </td><td> </td></tr>
+                    <tr><td> </td><td>&#x2551;</td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td></tr>
+                    <tr><td>&#x2588;</td><td>&#x2588;</td><td>&#x2588;</td><td>&#x2588;</td><td>&#x2588;</td><td>&#x2588;</td><td>&#x2588;</td><td>&#x2588;</td><td>&#x2588;</td><td>&#x2588;</td><td>&#x2588;</td></tr>
+                </tbody>
+            </table>
+            <div id="word-container">
+                ?
+                <span id="word"></span>
+            </div>
+        </div>
+
+        <div id="virtual-keyboard">
+            <div>
+                <button>q</button><button>w</button><button>e</button><button>r</button><button>t</button><button>z</button><button>u</button><button>i</button><button>o</button><button>p</button><button>ü</button>
+            </div>
+            <div>
+                <button>a</button><button>s</button><button>d</button><button>f</button><button>g</button><button>h</button><button>j</button><button>k</button><button>l</button><button>ö</button><button>ä</button>
+            </div>
+            <div>
+                <button>y</button><button>x</button><button>c</button><button>v</button><button>b</button><button>n</button><button>m</button><button class="ernstl">ernstl</button>
+            </div>
+        </div>
+
+        <div>
+            <button id="hint-button" title="Tipp geben">?</button>
+            <button id="new-button" title="Neues Spiel beginnen">Neu</button>
+        </div>
+
+        <div id="help">
+            <i><span id="n-words"></span> Verben und Substantive</i>
+        </div>
+
+
+        <footer>&copy; 2017 <a href="mailto:joern.steffen@ksb-sg.ch">FG Inf</a>, <a href="http://www.ksb-sg.ch/" target="_blank">Kantonsschule am Brühl, St.Gallen</a>.</footer>
+
+    </div>
+</body>
+</html>

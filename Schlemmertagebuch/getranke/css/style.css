@@ -1,0 +1,66 @@
+body {
+    max-width: 40em;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2em 0;
+    line-height: 1.6em;
+    font-family: 'Black Jack', 'Nimbus Roman No. 9', serif;
+    color: #333;
+}
+a {
+    color: #CC2323;
+    text-decoration: none;
+}
+footer {
+    margin-top: 3em;
+    opacity: 0.6;
+    text-align: center;
+}
+.autor {
+    font-size: 200%;
+    font-style: italic;
+    color: #aaa;
+    margin-top: 0;
+}
+.sitename {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    font-size: 350%;
+    font-weight: bold;
+}
+
+#tags {
+    margin-top: 3em;
+    padding-left: 0;
+}
+#tags li {
+    display: inline;
+    margin-right: 0.7em;
+    padding: 0.5em;
+    border-radius: 0.5em;
+    background-color: #ddd;
+}
+#tags li a {
+    text-decoration: none;
+}
+
+#hauptmenue ul {
+    padding: 0.5em;
+    margin-bottom: 2em;
+    text-align: center;
+    border-width: 0;
+    border-bottom-width: thin;
+    border-style: solid;
+    border-color: #ddd;
+}
+#hauptmenue li {
+    display: inline;
+    padding: 0em;
+    font-size: 120%;
+}
+#hauptmenue li + li:before {
+    content: " | ";
+}
+#hauptmenue .aktiv {
+    color: #333;
+}
